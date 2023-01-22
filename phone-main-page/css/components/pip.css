@@ -1,0 +1,21 @@
+.pip{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+.music-pip{
+    right: 0;
+    top: 100px;
+}
+.pip__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    box-shadow: 0 0 10px black;
+    
+}
+.phoning-pip{
+    left:0px;
+    top: 150px;
+}

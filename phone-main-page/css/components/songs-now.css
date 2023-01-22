@@ -1,0 +1,59 @@
+
+.songs__song{
+    color:black;
+    opacity: 0.8;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    padding:10px;
+    padding-right: 15px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+.songs__song-content{
+    display: flex;
+    align-items: center;
+}
+.songs__song-cover{
+    height: 40px;
+    width: 40px;
+    margin:0 10px;
+}
+.songs__song-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.songs__song-singer{
+    color: gray;
+    font-size: 14px;
+}
+
+.songs-now{
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    background-color: white;
+    color: black;
+}
+.songs__now-playing .songs__song-singer{
+    color: var(--light-gray);
+}
+.songs__now-playing{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+.songs__now-playing__btn{
+    display: flex;
+    align-items: center;
+}
+.songs__now-playing__btn .fa-play,
+.songs__now-playing__btn .fa-pause{
+    font-size: 1.4em;
+    width: 25px;
+    margin: 0 17px;
+}

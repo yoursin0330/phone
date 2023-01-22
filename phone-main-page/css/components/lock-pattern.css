@@ -1,0 +1,20 @@
+
+#lock-pattern{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+#lock-pattern .lock-row{
+    display: flex;
+    justify-content: center;
+
+}
+#lock-pattern .lock-row div{
+    border: 2px solid gray;
+    box-shadow: 0 0 10px gray;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 50%;
+    margin:25px;
+}

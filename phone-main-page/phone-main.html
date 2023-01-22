@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Phone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="screen phone-main">
+        <div class="pip music-pip">
+            <a href="../kokoa-clone-2023/music-page/player.html">
+                <img class="pip__img music-pip__img" src="https://lh3.googleusercontent.com/yg7U52lN4NMHddFXE1de6d99puDNeC-1U6q5PnLjXPatrexqW9AOoWC8a5EJBULlXraaEWU8OvKrFYrp1A=w544-h544-l90-rj" alt="">
+            </a>
+        </div>
+        <div class="status-bar">
+            <!-- 부모와 자식 명시하면서 클래스명 작성 -->
+            <div class="status-bar__column">
+                <span>No Service </span>
+                <i class="fa-solid fa-wifi"></i>
+                  
+            </div>
+            <div class="status-bar__column">
+                <span class="stauts-bar__clock"></span>
+            </div>
+            <div class="status-bar__column">
+                <!-- To DO: locked icon -->
+                <span>70%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt fa-sm"></i>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
+    <script src="js/status-bar.js"></script>
+</body>
+</html>

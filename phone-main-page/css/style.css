@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import "reset.css";
+/* components */
+@import "components/status-bar.css";
+@import "components/clock.css";
+@import "components/lock-pattern.css";
+@import "components/songs-now.css";
+@import "components/pip.css";
+/* screens */
+@import "screens/index.css";
+@import "screens/lock-screen.css";
+@import "screens/phone-call.css";
+@import "screens/calling.css";
+
+.screen{
+    font-family: 'Gowun Dodum', sans-serif;
+    padding: 100px 0 30px;
+    box-sizing: border-box;
+    background-image: url("https://wallpapercave.com/wp/wp4617596.jpg");
+    background-size: contain;
+    background-color: black;
+    background-repeat:no-repeat;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hidden{
+    display: none;
+}

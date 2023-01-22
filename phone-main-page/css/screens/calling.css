@@ -1,0 +1,78 @@
+#callNumber{
+    display: flex;
+    justify-content: center;
+
+}
+.phone-call__calling{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone-call__calling-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone-call__calling-info__img{
+    background-color: cadetblue;
+    padding: 25px 28px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.callNumber-box{
+    height: 40px;
+    width: 70%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#callNumber{
+    color: white;
+    font-size: 30px;
+    letter-spacing:1px;
+}
+.phone-call__calling-buttons__box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px;
+    border: none;
+    width: 60%;
+}
+
+.phone-call__calling-buttons__row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.calling__button-box{
+    margin: 20px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.calling__button-box i{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.calling__button-box span{
+    font-size: 10px;
+    text-align: center;
+}
+.phone-call__calling-call__end{
+    margin: 20px 0;
+}
+.phone-call__calling-call__end i{
+    font-size: 30px;
+    color:pink;
+}

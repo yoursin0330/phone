@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Phone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <div class="screen main-lockscreen">
+            <div class="status-bar">
+                <!-- 부모와 자식 명시하면서 클래스명 작성 -->
+                <div class="status-bar__column">
+                    <span>No Service </span>
+                    <i class="fa-solid fa-wifi"></i>
+                </div>
+                <div class="status-bar__column">
+                    <span></span>
+                </div>
+                <div class="status-bar__column">
+                    <!-- To DO: locked icon -->
+                    <span>70%</span>
+                    <i class="fa-solid fa-battery-full fa-lg"></i>
+                    <i class="fa-solid fa-bolt fa-sm"></i>
+                </div>
+            </div>
+            <div class="main-lockscreen__text">
+                <div class="clock-box">
+                    <h4 class="clock"></h4>
+                    <h4 class="today"></h4>
+                </div>
+                <div class="main-lockscreen__icons">
+                    <i class="fa-solid fa-comment"></i>
+                    <i class="fa-solid fa-image"></i>
+                </div>
+            </div>
+                <div class="songs__now-playing">
+                    <div class="songs__song songs-now">
+                        <div class="songs__song-content">
+                            <img class="songs__song-cover" src="https://lh3.googleusercontent.com/yg7U52lN4NMHddFXE1de6d99puDNeC-1U6q5PnLjXPatrexqW9AOoWC8a5EJBULlXraaEWU8OvKrFYrp1A=w544-h544-l90-rj">
+                            <div class="songs__song-text">
+                                <span class="songs__song-title">Cookie</span>
+                                <span class="songs__song-singer">NewJeans</span>
+                            </div>
+                        </div>
+                        <div class="songs__song-btn  songs__now-playing__btn">
+                            <i class="fa-solid fa-backward-step"></i>
+                            <span id="playbtn"><i class=" fa-solid fa-play"></i></span>
+                            <span class="hidden" id="pausebtn"><i class=" fa-solid fa-pause"></i></span>
+                            <i class="fa-solid fa-forward-step"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-lockscreen__unlock-box">
+                    <div class="main-lockscreen__unlock">
+                        <a href="lock-screen.html">
+                            <i class="fa-solid fa-unlock-keyhole"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            <div class="main-lockscreen__charging-box">
+                <div class="main-lockscreen__charging">
+                    <span><i class="fa-solid fa-bolt"></i></span>
+                    <span>충전중</span>
+                    <span>70%</span>
+                </div>
+            </div>
+        </div>
+    <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/play-stop.js"></script>
+</body>
+</html>

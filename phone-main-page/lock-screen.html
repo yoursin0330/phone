@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lockscreen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="screen lock-screen">
+        <div class="status-bar">
+            <!-- 부모와 자식 명시하면서 클래스명 작성 -->
+            <div class="status-bar__column">
+                <span>No Service </span>
+                <i class="fa-solid fa-wifi"></i>
+                  
+            </div>
+            <div class="status-bar__column">
+                <span></span>
+            </div>
+            <div class="status-bar__column">
+                <!-- To DO: locked icon -->
+                <span>70%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt fa-sm"></i>
+            </div>
+        </div>
+        <h3>패턴을 그려 잠금을 해제하세요.</h3>
+        <div id="lock-pattern">
+            <a href="phone-main.html">
+                <div class="lock-row">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="lock-row">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="lock-row">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </a>
+            
+        </div>
+        <div class="urgent-call__box">
+            <a href="phone-call.html">
+                <div class="urgent-call">
+                    <span>긴급전화</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
+    <script src="js/clock.js"></script>
+</body>
+</html>

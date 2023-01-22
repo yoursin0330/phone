@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Phone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="screen phone-call">
+        <div class="status-bar">
+            <!-- 부모와 자식 명시하면서 클래스명 작성 -->
+            <div class="status-bar__column">
+                <span>No Service </span>
+                <i class="fa-solid fa-wifi"></i>
+                  
+            </div>
+            <div class="status-bar__column">
+                <span class="stauts-bar__clock"></span>
+            </div>
+            <div class="status-bar__column">
+                <!-- To DO: locked icon -->
+                <span>70%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt fa-sm"></i>
+            </div>
+        </div>
+        <div class="phone-call__callbox">
+            <div class="phone-call__callbox-numInput">
+                <span></span>
+            </div>
+            <div class="phone-call__callbox-numbers">
+                <div class="phone-call__callbox-numbers-row">
+                    <span class="phone-call__keypad">1</span>
+                    <span class="phone-call__keypad">2</span>
+                    <span class="phone-call__keypad">3</span>
+                </div>
+                <div class="phone-call__callbox-numbers-row">
+                    <span class="phone-call__keypad">4</span>
+                    <span class="phone-call__keypad">5</span>
+                    <span class="phone-call__keypad">6</span>
+                </div>
+                <div class="phone-call__callbox-numbers-row">
+                    <span class="phone-call__keypad">7</span>
+                    <span class="phone-call__keypad">8</span>
+                    <span class="phone-call__keypad">9</span>
+                </div>
+                <div class="phone-call__callbox-numbers-row">
+                    <span class="phone-call__keypad">*</span>
+                    <span class="phone-call__keypad">0</span>
+                    <span class="phone-call__keypad">#</span>
+                </div>
+            </div>
+            
+            <div class="phone-call__callbox-call">
+                <i class="fa-solid fa-phone fa-2x"></i>
+            </div>
+        </div>
+
+        <div class="phone-call__calling hidden" >
+            <div class="phone-call__calling-info">
+                <div class="phone-call__calling-info__img">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="callNumber-box">
+                    <span id="callNumber"></span>
+                </div>
+            </div>
+            <div class="phone-call__calling-buttons__box">
+                <div class="phone-call__calling-buttons">
+                    <div class="phone-call__calling-buttons__row">
+                        <div class="calling__button-box">
+                            <i class="fa-solid fa-note-sticky"></i>
+                            <span>노트</span>
+                        </div>
+                        <div class="calling__button-box">
+                            <i class="fa-solid fa-video"></i>
+                            <span>영상통화</span>
+                        </div>
+                        
+                    </div>
+                    <div class="phone-call__calling-buttons__row">
+                        <div class="calling__button-box">
+                            <i class="fa-solid fa-volume-high"></i>
+                            <span>스피커폰</span>
+                        </div>
+                        <div class="calling__button-box">
+                            <i class="fa-solid fa-microphone-slash"></i>
+                            <span>음소거</span>
+                        </div>
+                        <div class="calling__button-box">
+                            <i class="fa-brands fa-bluetooth-b"></i>
+                            <span>블루투스</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div class="phone-call__calling-call__end">
+                        <i class="fa-solid fa-phone-slash"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
+    <script src="js/status-bar.js"></script>
+    <script src="js/phone-call.js"></script>
+</body>
+</html>
