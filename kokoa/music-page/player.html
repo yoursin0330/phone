@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>YouTube Music</title>
+    <link rel="icon" type="image/png" href="https://music.youtube.com/img/on_platform_logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body style="height: 100vh;">
+    <main class="player">
+        <!-- <div class="player"> -->
+            <div class="pip phoning-pip">
+                <a href="../friends.html">
+                    <img class="pip__img phoning-pip__img" src="https://play-lh.googleusercontent.com/fuxcgolZHYW-6aeQsBup_OsWhAKs7kM6Su1nDTCP6h5fGIzhTPe2s47J8BLQac1jsAs">
+                </a>
+            </div>
+            <div class="status-bar">
+                <div class="status-bar__left">
+                    <a href="playlist.html">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </div>
+                <div class="status-bar__center">
+                    <button class="status-bar__center-song">노래</button>
+                    <button class="status-bar__center-video">동영상</button>
+                </div>
+                <div class="status-bar__right">
+                    <i class="fa-solid fa-square-rss"></i>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+
+            <div class="play">
+                <img class="play__cover" src="https://lh3.googleusercontent.com/yg7U52lN4NMHddFXE1de6d99puDNeC-1U6q5PnLjXPatrexqW9AOoWC8a5EJBULlXraaEWU8OvKrFYrp1A=w544-h544-l90-rj">
+                <div class="play-player">
+                    <div class="play-player__text">
+                        <i class="fa-regular fa-thumbs-down"></i>
+                        <div class="play-player__info">
+                            <h1>Attention</h1>
+                            <h3>NewJeans</h3>
+                        </div>
+                        <i class="fa-regular fa-thumbs-up"></i>
+                    </div>
+                    <div class="play-player__music">
+                        <div class="music-bar">
+                            <div class="music-bar-play__box">
+                                <input id="music-bar-play" type="range">
+                            </div>
+                            <div class="music-bar-play-texts">
+                                <div class="music-bar-text">0:02</div>
+                                <div class="music-bar-text">3:01</div>
+                            </div>
+                            
+                        </div>
+                        <div class="play-player__button">
+                            <i class="fa-solid fa-repeat" style="color: var(--light-gray);"></i>
+                            <i class="fa-lg fa-solid fa-backward-step"></i>
+                            <button id="big-play-btn">
+                                <i class="fa-lg fa-solid fa-play"></i>
+                            </button>
+                            <i class="fa-lg fa-solid fa-forward-step"></i>
+                            <i class=" fa-solid fa-shuffle" style="color: var(--light-gray);"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-player__box">
+                <div class="nav-plyer__outline">
+                    <nav class="nav-player">
+                        <div class="nav-player__bar"></div>
+                        <ul>
+                            <li class="nav-player__next">
+                                <span>다음 트랙</span>
+                            </li>
+                            <li class="nav-player__lyrics">
+                                <span>가사</span>
+                            </li>
+                            <li class="nav-player__simular">
+                                <span>관련 항목</span>
+                            </li>
+                        </ul>
+                        
+                    </nav>
+                </div>
+            </div>
+            <div class="nav-below">
+            </div>
+    </main>
+    <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://play-lh.googleusercontent.com/fuxcgolZHYW-6aeQsBup_OsWhAKs7kM6Su1nDTCP6h5fGIzhTPe2s47J8BLQac1jsAs">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="width:100vw;height:100vh">
+    <div class="pip music-pip">
+        <a href="music-page/player.html">
+            <img class="pip__img music-pip__img" src="https://lh3.googleusercontent.com/yg7U52lN4NMHddFXE1de6d99puDNeC-1U6q5PnLjXPatrexqW9AOoWC8a5EJBULlXraaEWU8OvKrFYrp1A=w544-h544-l90-rj" alt="">
+        </a>
+    </div>
+    <div class="status-bar">
+        <!-- 부모와 자식 명시하면서 클래스명 작성 -->
+        <div class="status-bar__column">
+            <span>No Service </span>
+            <i class="fa-solid fa-wifi"></i>
+              
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <!-- To DO: locked icon -->
+            <span>70%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span style="position:relative;">
+                <span><a href="settings.html"><i class="fa-lg fa-solid fa-gear"></i></a></span>
+            <span class="badge-dot screen-header__notification-dot "></span></span>
+        </div>
+    </header>
+
+    <main class="friends-screen">
+        <div id="this-user"class="user-component">
+            <div class="user-component__column">
+                <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/rabbit_1f407.png" class="user-component__avatar user-component__avatar--xl">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Ban heesu</h4>
+                    <!-- <h6 class="user-component__subtitle">Please check My Kokoa Talk</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span>;></span>
+            </div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="img/album-cd.jpeg" class="user-component__avatar--sm user-component__avatar">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title--not-bold user-component__title">Channel</h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <div>
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right fa-xs"></i>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </main>
+   
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__notification-dot badge-dot"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+        </ul>
+    </nav>
+    <div class="under-bar">
+    </div>
+    <div id="splash-screen">
+        <img src="https://newjeansfonts.carrd.co/assets/images/image08.jpg?v=3ef2df02">
+    </div>
+    <div id="no-pc">
+        <span>Your screen is too big</span>  
+      </div>
+    <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
+</body>
+</html>

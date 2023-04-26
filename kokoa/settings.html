@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="icon" href="https://play-lh.googleusercontent.com/fuxcgolZHYW-6aeQsBup_OsWhAKs7kM6Su1nDTCP6h5fGIzhTPe2s47J8BLQac1jsAs">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="pip music-pip">
+        <a href="music-page/player.html">
+            <img class="pip__img music-pip__img" src="https://lh3.googleusercontent.com/yg7U52lN4NMHddFXE1de6d99puDNeC-1U6q5PnLjXPatrexqW9AOoWC8a5EJBULlXraaEWU8OvKrFYrp1A=w544-h544-l90-rj" alt="">
+        </a>
+    </div>
+    <div class="status-bar">
+        <!-- 부모와 자식 명시하면서 클래스명 작성 -->
+        <div class="status-bar__column">
+            <span>No Service </span>
+            <i class="fa-solid fa-wifi"></i>
+              
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <!-- To DO: locked icon -->
+            <span>70%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+            
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html"><i class="fa-solid fa-angle-left fa-3x"></i></a>
+            
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-2x fa-solid fa-magnifying-glass"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen ">
+        <ul class="settings__list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                <i class="fa-solid fa-bullhorn"></i>
+                <span>Notices</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class=   "fa-solid fa-flask"></i>
+                    <span>Kokoa Lab</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings__setting-column">Latest Version</div>
+            </li>
+        </ul>
+    </main>
+   
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__notification-dot badge-dot"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+        </ul>
+    </nav>
+      <div id="no-pc">
+        <span>Your screen is too big</span>  
+      </div>
+    <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
+</body>
+</html>

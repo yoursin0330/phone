@@ -1,0 +1,10 @@
+:root{
+    --yellow: #FAE100;
+    --nj-yellow:#FFFF00;
+    --brown:#3C1D1E;
+    --nj-green:#0ABF39;
+    --nj-white:#FAF6F7;
+    --horizontal-space: 25px;
+    --main-border:1px solid rgba(0,0,0,0.3);
+    --gray: rgba(0,0,0,0.5);
+}

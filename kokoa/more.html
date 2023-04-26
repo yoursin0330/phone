@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://play-lh.googleusercontent.com/fuxcgolZHYW-6aeQsBup_OsWhAKs7kM6Su1nDTCP6h5fGIzhTPe2s47J8BLQac1jsAs">
+    <title>More</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="pip music-pip">
+        <a href="music-page/player.html">
+            <img class="pip__img music-pip__img" src="https://lh3.googleusercontent.com/yg7U52lN4NMHddFXE1de6d99puDNeC-1U6q5PnLjXPatrexqW9AOoWC8a5EJBULlXraaEWU8OvKrFYrp1A=w544-h544-l90-rj" alt="">
+        </a>
+    </div>
+    <div class="status-bar">
+        <!-- 부모와 자식 명시하면서 클래스명 작성 -->
+        <div class="status-bar__column">
+            <span>No Service </span>
+            <i class="fa-solid fa-wifi"></i>
+              
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <!-- To DO: locked icon -->
+            <span>70%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-lg fa-solid fa-magnifying-glass"></i></span>
+            <span style="position:relative;">
+                <span><a href="settings.html"><i class="fa-lg fa-solid fa-gear"></i></a></span>
+            <span class="badge-dot screen-header__notification-dot "></span></span>
+
+        </div>
+    </header>
+
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/rabbit_1f407.png" class="user-component__avatar user-component__avatar">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Ban Heesu</h4>
+                    <h6 class="user-component__subtitle">010-1010-0101 <i class="fa-solid fa-circle-exclamation"></i></h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <span><i class="fa-2x fa-regular fa-envelope"></i></span>
+            </div>
+        </div>
+
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-calendar"></i>
+                <span>Calendar</span></spam></span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-face-smile-wink"></i>
+                <span>Emoticons</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-palette"></i>
+                <span>Themes</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <span>Account</span>
+            </div>
+        </div>
+        
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-img"><i class="fa-solid fa-carrot"></i></div>
+                    <span class="more-suggestions__icon-text">Carrots</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-img"><i class="fa-solid fa-heart"></i></div>
+                    <span class="more-suggestions__icon-text">Hearts</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-img"><i class="fa-solid fa-clover"></i></div>
+                    <span class="more-suggestions__icon-text">Lucks</span>
+                </div>
+            </div>
+        </div>
+    </main>
+   
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__notification-dot badge-dot"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+        </ul>
+    </nav>
+      <div id="no-pc">
+        <span>Your screen is too big</span>  
+      </div>
+    <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
+</body>
+</html>

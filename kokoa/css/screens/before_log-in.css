@@ -1,0 +1,42 @@
+.before__log-in{
+    background:linear-gradient(var(--nj-green),white);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    
+}
+.before__log-in .status-bar{
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+.before__log-in__logo-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.before__log-in__logo{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px var(--nj-green);
+}
+.log-in__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-in__btn-box{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    border-radius: 50px;
+    border: 2px black solid;
+    background:linear-gradient(white,var(--nj-green));
+}

@@ -1,0 +1,131 @@
+
+.chat-screen{
+    height: 200vh;
+    -ms-overflow-style: none;
+}
+   ::-webkit-scrollbar {
+     display: none;
+   }
+.chat-screen .status-bar, .chat-screen .alt-header
+{
+    background-color: #FEFE49;
+    top:0;
+    position: fixed;
+    width:100%;
+    box-sizing: border-box;
+}
+.chat-screen .alt-header{
+    top:10px;
+    z-index: 1;
+}
+@keyframes fadeIn{
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+.chat-screen .status-bar{
+    z-index: 2;
+}
+.main-chat{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 0.5s linear;
+}
+.chat__timestamp{
+    color:white;
+    background-color: rgba(0,0,0,0.4);
+    padding: 8px 10px;
+    border-radius: 16px;
+    font-size: 14px;
+}
+.message-row{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.message-row__receiving{
+    justify-content: left;
+}
+
+.message-row__content{
+    display: flex;
+    flex-direction: column;
+}
+.message__bubble{
+    margin: 5px 0;
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px black solid;
+    background-color: white;
+}
+.message__bubble img{
+    width: 200px;
+    height: 200px;
+}
+.message-row__receiving .message__bubble{
+    background: linear-gradient(var(--nj-white),var(--nj-green));
+    border-top-left-radius: 0px;
+}
+.meassge-row__time{
+    font-size: 13px;
+    opacity: 0.9;
+    margin: 0 4px 5px;
+    display: flex;
+    align-items:flex-end;
+}
+.message-row__sending{
+    justify-content: right;
+}
+.message-row__sending .message__author{
+    text-align: right;
+}
+.message-row__sending .message__bubble{
+    border-top-right-radius: 0%;
+}
+.reply{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background-color: #FFFF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+.reply__column{
+    width: 90%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.reply__column input{
+    width: 100%;
+    font-size: 15px;
+    background:none;
+    border: none;
+}
+.reply__column i{
+    color: var(--nj-green);
+    margin-right: 5px;
+}
+.reply__column button{
+    font-size: 16px;
+    background: none;
+    border: none;
+}
+.reply__column button:hover i,
+.reply__column button:active i{
+    color: black;
+}

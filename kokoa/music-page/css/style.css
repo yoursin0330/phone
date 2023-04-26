@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+/* for playlist */
+@import "profile.css";
+@import "songs.css";
+
+/* for player */
+@import "status-bar.css";
+@import "player.css";
+@import "../../css/components/pip.css";
+:root{
+  --light-gray:#ffffffb0;
+}
+* {
+    box-sizing: border-box;
+    border: none;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    color: white;
+    margin:0;
+    padding:0;
+
+  }
+  .playlist{
+    background: radial-gradient(at 0% 30%, #60A0EA,#DEA9E9 ,#1A0A0F);
+    position: relative;
+    margin:0;
+  }
+.player{
+  background-color: #181E40;
+  position:relative;
+  margin:0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+h3{
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--light-gray);
+}

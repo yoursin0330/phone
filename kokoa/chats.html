@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats</title>
+    <link rel="icon" href="https://play-lh.googleusercontent.com/fuxcgolZHYW-6aeQsBup_OsWhAKs7kM6Su1nDTCP6h5fGIzhTPe2s47J8BLQac1jsAs">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="pip music-pip">
+        <a href="music-page/player.html">
+            <img class="pip__img music-pip__img" src="https://lh3.googleusercontent.com/yg7U52lN4NMHddFXE1de6d99puDNeC-1U6q5PnLjXPatrexqW9AOoWC8a5EJBULlXraaEWU8OvKrFYrp1A=w544-h544-l90-rj" alt="">
+        </a>
+    </div>
+    <div class="status-bar">
+        <!-- 부모와 자식 명시하면서 클래스명 작성 -->
+        <div class="status-bar__column">
+            <span>No Service </span>
+            <i class="fa-solid fa-wifi"></i>
+              
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <!-- To DO: locked icon -->
+            <span>70%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <div class="alt-header__column-box">
+                <a href="friends.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Chats</h1>
+        </div>
+        <div class="alt-header__column">
+            <!-- <div class="alt-header__column-box">
+                <span><i class="fa-solid fa-ellipsis-vertical fa-2x"></i></span>
+            </div> -->
+        </div> 
+    </header>
+
+    <main class="main-screen chats-main-screen">
+        <a href="chatting-rooms/chat-newjeans.html">
+            <div class="user-component user-newjeans">
+                <div class="user-component__column">
+                    <img src="img/album-cd.jpeg" class="user-component__avatar">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title--not-bold user-component__title">NewJeans👖</h4>
+                        <h6 class="user-component__subtitle">Check our second album 'OMG'!</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">00:00</span>
+                    <span class="badge">1</span>
+                </div>
+            </div>
+        </a>
+        <a href="chatting-rooms/chat-haerin.html">
+            <div class="user-component user-haerin">
+                <div class="user-component__column">
+                    <img src="https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f431.png" class="user-component__avatar">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title--not-bold user-component__title">해린</h4>
+                        <h6 class="user-component__subtitle">😎👖</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">19:30</span>
+                </div>
+            </div>
+            </a>
+            <a href="chatting-rooms/chat-minji.html">
+            <div class="user-component user-minji">
+                <div class="user-component__column">
+                    <img src="https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f436.png" class="user-component__avatar">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title--not-bold user-component__title">민지!!</h4>
+                        <h6 class="user-component__subtitle">Happy Bunnies Year :)</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">00:00</span>
+                </div>
+            </div>
+        </a>
+
+    </main>
+   
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-solid fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__notification-dot badge-dot"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+        </ul>
+    </nav>
+      <div id="no-pc">
+        <span>Your screen is too big</span>  
+      </div>
+    <script src="https://kit.fontawesome.com/39e2faebad.js" crossorigin="anonymous"></script>
+</body>
+</html>

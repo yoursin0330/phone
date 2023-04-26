@@ -1,0 +1,116 @@
+.play{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.play__cover{
+    width: 230px;
+    height: 230px;
+}
+.play-player{
+    width: 230px;
+    padding: 30px 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+.play-player__info{
+    text-align: center;
+}
+.play-player__text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.play-player__music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.music-bar{
+    width:100%;
+}
+#music-bar-play{
+    height: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    background: var(--light-gray);
+    outline: none;
+}
+
+.music-bar-play-texts{
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--light-gray);
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-player__button{
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#big-play-btn{
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    background-color: #282F67;
+    padding: 20px 22px;
+}
+.nav-player__box{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.nav-player__outline{
+    box-sizing: border-box;
+    overflow: hidden;
+    display: relative;
+}
+.nav-player{
+    position: relative;
+    bottom:-10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 15px;
+    background-color: #282F67;
+    height: 50px;
+    width: 100%;
+    padding:  10px;
+    color: var(--light-gray);
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.nav-player__bar{
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: var(--light-gray);
+}
+
+.nav-player ul{
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    justify-content:space-evenly;
+}
+.nav-below{
+    position: absolute;
+    bottom:0;
+    height: 20px;
+    width:100%;
+    background-color: #282F67;
+  }
